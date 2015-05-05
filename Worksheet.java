@@ -15,6 +15,7 @@ public class Worksheet {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
+ //b1 change....
   @Before
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
