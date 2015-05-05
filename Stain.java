@@ -21,7 +21,7 @@ public class Stain {
     baseUrl = "http://localhost:8085/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
-
+   //tmp2 change
   @Test
   public void testStain() throws Exception {
     driver.get(baseUrl + "/cahubdataservices/caseRecord/view/9443");
